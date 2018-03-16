@@ -3,7 +3,7 @@ webpackJsonp(["styles"],{
 /***/ "./node_modules/raw-loader/index.js!./node_modules/postcss-loader/lib/index.js??embedded!./src/styles.css":
 /***/ (function(module, exports) {
 
-module.exports = "/* You can add global styles to this file, and also import other style files */\n\n.fixed-top {\n    position: fixed;\n    top: 0;\n    left: 0;\n    z-index: 20;\n  }\n\n.article {\n      margin-bottom:80px;\n  }\n\n@media only screen and (max-width: 768px) {\n    .fixed-top {\n        right:0;\n    }\n\n    body.fixed-nav {\n        padding-top: 56px;\n      }\n}\n\n@media only screen and (min-width: 769px) {\n    #mainNav {\n        width:250px;\n    }\n}"
+module.exports = "/* You can add global styles to this file, and also import other style files */\n\n.fixed-top {\n    position: fixed;\n    top: 0;\n    left: 0;\n    z-index: 20;\n  }\n\n.article {\n      margin-bottom:80px;\n  }\n\nh4 {\n    color: #db7272;\n    text-align: center;\n    padding: 10px;\n    margin-bottom: 10px;\n  }\n\n.fact-charts {\n    width: 100%;\n    display: block;\n    padding:  5px;\n  }\n\n.fact-table {\n    border: 1px solid #e8e8e8;\n    background: #f8f8f8;\n  }\n\n.fact-table th {\n    border:1px;\n  }\n\n@media only screen and (max-width: 768px) {\n    .fixed-top {\n        right:0;\n    }\n\n    body.fixed-nav {\n        padding-top: 56px;\n      }\n}\n\n@media only screen and (min-width: 769px) {\n    #mainNav {\n        width:250px;\n    }\n}"
 
 /***/ }),
 
