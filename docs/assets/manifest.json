@@ -28,7 +28,7 @@
       "sizes": "512x169"
     }
   ],
-  "start_url": "/?utm_source=homescreen",
+  "start_url": "/socialcop-ipl?utm_source=homescreen",
   "background_color": "#343a40",
   "theme_color": "#343a40",
   "display": "standalone"
