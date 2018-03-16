@@ -4,7 +4,18 @@
   <meta charset="utf-8">
   <title>IPL</title>
   <base href="/socialcop-ipl/">
-
+  <script>
+    if ('serviceWorker' in navigator) {
+      navigator.serviceWorker.register('assets/js/sw.js')
+      .then(function(reg) {
+        // registration worked
+        console.log('Registration succeeded. Scope is ');
+      }).catch(function(error) {
+        // registration failed
+        console.log('Registration failed with ' + error);
+      });
+    }
+    </script>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="icon" type="image/x-icon" href="favicon.ico">
 
@@ -14,6 +25,7 @@
   <link href="assets/vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
   <!-- Custom styles for this template-->
   <link href="assets/css/sb-admin.css" rel="stylesheet">
+  
 </head>
 <body class="fixed-nav sticky-footer bg-dark" id="page-top">
   <app-root></app-root>
