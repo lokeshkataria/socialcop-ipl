@@ -1,0 +1,100 @@
+<div class="row article" id="title_winners">
+    <div class="col-sm-12">
+            <h4 style="color: #db7272;text-align: center;/* border-bottom: 1px solid #f8f8f8; */padding: 10px;margin-bottom: 10px;"> Title Winners</h4>
+    </div>
+    <div class="col-sm-8" style="/* border:1px solid #eeeeee */">
+        <div >
+            <canvas height="500" id="winners_chart" style="width: 100%;display: block;padding:  5px;" ></canvas>
+        </div>
+    </div>
+    <div class="col-sm-4">
+        <table class="table" style="border: 1px solid #e8e8e8;background: #f8f8f8;">
+            <thead>
+                <tr>
+                    <th style="border:1px">Year</th>
+                    <th style="border:1px">Team</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr *ngFor="let w of titles">
+                    <td>{{w.Year}}</td>
+                    <td>{{w.Team_Name}}</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</div>
+
+<!-- Orange Cap Winner -->
+<div class="row article" id="orangeCapWinners">
+    <div class="col-sm-12">
+            <h4 style="color: #db7272;text-align: center;/* border-bottom: 1px solid #f8f8f8; */padding: 10px;margin-bottom: 10px;"> Orange Cap Winner (Most Runs in a season)</h4>
+    </div>
+    <div class="col-sm-12">
+        <div>
+            <canvas height="500" id="orangeCap_chart" style="width: 100%;display: block;padding:  5px;" ></canvas>
+        </div>
+    </div>
+</div>
+
+<!-- Top 10 Batsmen -->
+<div class="row article" id="top10Batsmen">
+    <div class="col-sm-12">
+            <h4 style="color: #db7272;text-align: center;/* border-bottom: 1px solid #f8f8f8; */padding: 10px;margin-bottom: 10px;"> All time Most Runs</h4>
+    </div>
+    <div class="col-sm-12">
+        <div>
+            <canvas height="500" id="topBatsmen_chart" style="width: 100%;display: block;padding:  5px;" ></canvas>
+        </div>
+    </div>
+</div>
+
+<!-- Purple Cap Winner -->
+<div class="row article" id="purpleCapWinners">
+        <div class="col-sm-12">
+                <h4 style="color: #db7272;text-align: center;/* border-bottom: 1px solid #f8f8f8; */padding: 10px;margin-bottom: 10px;"> Purple Cap Winner (Most Wickets in a season)</h4>
+        </div>
+        <div class="col-sm-12">
+            <div>
+                <canvas height="500" id="purpleCap_chart" style="width: 100%;display: block;padding:  5px;" ></canvas>
+            </div>
+        </div>
+    </div>
+
+<!-- Top 10 Bowlers -->
+<div class="row article" id="top10Bowlers">
+    <div class="col-sm-12">
+            <h4 style="color: #db7272;text-align: center;/* border-bottom: 1px solid #f8f8f8; */padding: 10px;margin-bottom: 10px;"> All Time Most Wickets</h4>
+    </div>
+    <div class="col-sm-12" >
+        <div>
+            <canvas height="500" id="topBowlers_chart" style="width: 100%;display: block;padding:  5px;" ></canvas>
+        </div>
+    </div>
+</div>
+
+<!-- Most Sixes -->
+<div class="row article" id="mostSixes">
+    <div class="col-sm-12">
+            <h4 style="color: #db7272;text-align: center;/* border-bottom: 1px solid #f8f8f8; */padding: 10px;margin-bottom: 10px;"> All Time Most Sixes</h4>
+    </div>
+    <div class="col-sm-12" >
+        <div>
+            <canvas height="500" id="mostSixes_chart" style="width: 100%;display: block;padding:  5px;" ></canvas>
+        </div>
+    </div>
+</div>
+
+    <!-- Highest Individual -->
+<div class="row article" id="highestIndividual">
+    <div class="col-sm-12">
+            <h4 style="color: #db7272;text-align: center;/* border-bottom: 1px solid #f8f8f8; */padding: 10px;margin-bottom: 10px;"> Highest Score (Individual)</h4>
+    </div>
+    <div class="col-sm-12" >
+        <div>
+            <canvas height="500" id="individualHighest_chart" style="width: 100%;display: block;padding:  5px;" ></canvas>
+        </div>
+    </div>
+</div>
+
+    
