@@ -35,23 +35,23 @@
 	var CACHE_SOURCE = 'ipl-pages-cache-'+version;
 	
 	var networkFirstUrl = [
-	  '',
-	  'index.html',
-	  'inline.bundle.js',
-	  'polyfills.bundle.js',
-	  'styles.bundle.js',
-	  'vendor.bundle.js',
-	  'main.bundle.js',
+	  '/socialcop-ipl/',
+	  '/socialcop-ipl/index.html',
+	  '/socialcop-ipl/inline.bundle.js',
+	  '/socialcop-ipl/polyfills.bundle.js',
+	  '/socialcop-ipl/styles.bundle.js',
+	  '/socialcop-ipl/vendor.bundle.js',
+	  '/socialcop-ipl/main.bundle.js',
 	];
 
 	
 	var cacheFirstUrl = [
-	  'assets/vendor/bootstrap/css/bootstrap.min.css',
-	  'assets/vendor/font-awesome/css/font-awesome.min.css',
-	  'assets/css/sb-admin.css',
-	  'assets/vendor/jquery/jquery.min.js',
-	  'assets/vendor/bootstrap/js/bootstrap.bundle.min.js',
-	  'assets/vendor/chart.js/Chart.min.js'
+	  '/socialcop-ipl/assets/vendor/bootstrap/css/bootstrap.min.css',
+	  '/socialcop-ipl/assets/vendor/font-awesome/css/font-awesome.min.css',
+	  '/socialcop-ipl/assets/css/sb-admin.css',
+	  '/socialcop-ipl/assets/vendor/jquery/jquery.min.js',
+	  '/socialcop-ipl/assets/vendor/bootstrap/js/bootstrap.bundle.min.js',
+	  '/socialcop-ipl/assets/vendor/chart.js/Chart.min.js'
 	];
 
 	var myCaches = [
