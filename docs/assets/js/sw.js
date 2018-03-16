@@ -93,7 +93,7 @@
 	self.addEventListener('fetch', function(event) {
 		var requestUrl = event.request.url;
 		var imgFile;
-		var static_request;
+		var static_request;console.info(requestUrl);
 		for(var u = 0;u < cacheFirstUrl.length;u++) {
 			if (requestUrl.indexOf(cacheFirstUrl[u]) > -1) {
 				static_request = 1;
