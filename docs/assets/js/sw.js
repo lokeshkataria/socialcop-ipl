@@ -35,23 +35,23 @@
 	var CACHE_SOURCE = 'ipl-pages-cache-'+version;
 	
 	var networkFirstUrl = [
-	  '/',
-	  '/index.html',
-	  '/inline.bundle.js',
-	  '/polyfills.bundle.js',
-	  '/styles.bundle.js',
-	  '/vendor.bundle.js',
-	  '/main.bundle.js',
+	  '',
+	  'index.html',
+	  'inline.bundle.js',
+	  'polyfills.bundle.js',
+	  'styles.bundle.js',
+	  'vendor.bundle.js',
+	  'main.bundle.js',
 	];
 
 	
 	var cacheFirstUrl = [
-	  '/assets/vendor/bootstrap/css/bootstrap.min.css',
-	  '/assets/vendor/font-awesome/css/font-awesome.min.css',
-	  '/assets/css/sb-admin.css',
-	  '/assets/vendor/jquery/jquery.min.js',
-	  '/assets/vendor/bootstrap/js/bootstrap.bundle.min.js',
-	  '/assets/vendor/chart.js/Chart.min.js'
+	  'assets/vendor/bootstrap/css/bootstrap.min.css',
+	  'assets/vendor/font-awesome/css/font-awesome.min.css',
+	  'assets/css/sb-admin.css',
+	  'assets/vendor/jquery/jquery.min.js',
+	  'assets/vendor/bootstrap/js/bootstrap.bundle.min.js',
+	  'assets/vendor/chart.js/Chart.min.js'
 	];
 
 	var myCaches = [
