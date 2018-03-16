@@ -37,14 +37,13 @@
 	var networkFirstUrl = [
 	  '/',
 	  '/index.html',
-	  '/offline.html',
 	  '/inline.bundle.js',
 	  '/polyfills.bundle.js',
 	  '/styles.bundle.js',
 	  '/vendor.bundle.js',
 	  '/main.bundle.js',
 	];
-	var OFFLINE_URL = '/offline.html';
+
 	
 	var cacheFirstUrl = [
 	  '/assets/vendor/bootstrap/css/bootstrap.min.css',
