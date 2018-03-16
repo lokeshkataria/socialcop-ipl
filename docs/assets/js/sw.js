@@ -32,7 +32,7 @@
 	
 	/* Application specific data */
 	var CACHE_STATIC = 'ipl-cache-'+version;
-	var CACHE_PAGES = 'ipl-pages-cache-'+version;
+	var CACHE_SOURCE = 'ipl-pages-cache-'+version;
 	
 	var networkFirstUrl = [
 	  '/',
